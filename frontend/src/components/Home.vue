@@ -4,8 +4,16 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
   export default {
     name: 'Home'
   };
 </script>
+
+<style>
+  .home {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+</style>
